@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width : 900px) {
+  .wrapper {
+    width: 100%;
+    margin: 20 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.form {
+  box-sizing: border-box;
+  flex-basis: 45%;
+  margin: auto;
+}
+
+.tablediv {
+  box-sizing: border-box;
+  flex-basis: 45%;
+  margin: 0 auto;
+}
